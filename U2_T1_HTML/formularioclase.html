@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">HOJA DE INSCRIPCION</h1>
+    <h1 style="text-align: center">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <form action="">
+        <fieldset style="background-color: rgb(179, 150, 199);">
+
+            <legend style="border-style:solid;background-color: white;border-width: 2px;"> Datos personales</legend>
+            <table>
+                <tr>
+                    <td> <label for="NOMBRE"> Nombre</label> </td>
+                    <td><label for="APELLIDOS">Apellidos </label></td>
+                    <td><label for="DNI"> DNI</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="NOMBRE" id="1"></td>
+                    <td><input type="text" name="APELLIDOS" id="2"></td>
+                    <td><input type="text" name="DNI" id="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="LOCALIDAD">Localidad Nacimiento</label></td>
+                    <td><label for="PRIVINCIA">Provincia</label></td>
+                    <td><label for="FECHA_NACIMIENTO">Fecha Nacimiento</label></td>
+                </tr>
+                <tr>
+                    <td> <input type="text" name="LOCALIDAD" id="4" style="width: 80;"></td>
+                    <td><select name="PROVINCIA" id="5">
+                            <option value="0">- selecciona - </option>
+                            <option value="1">SEVILLA</option>
+                            <option value="2">CÓRDOBA</option>
+                            <option value="3">MÁLAGA</option>
+                            <option value="4">JÁEN</option>
+                            <option value="5">ALMERÍA</option>
+                            <option value="6">HUELVA</option>
+                            <option value="7">CÁDIZ</option>
+                            <option value="8">GRANADA</option>
+                        </select></td>
+                    <td>
+                        <input type="date" name="FECHA_NACIMIENTO" id="6">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="DIRECCION">Dirección</label></td>
+                    <td><label for="CPOSTAL">Código postal</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="DIRECCION" id="7" style="width: 80%;"></td>
+                    <td><input type="text" name="CPOSTAL" id="8"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <fieldset style="background-color: rgb(245, 188, 181);">
+            <legend style="border-style: solid;border-width: 2px;background-color: white;">Forma de acceso</legend>
+            <ul style="list-style-type: none;">
+                <li><input type="radio" name="FORMA" id="9">Direct
+                    <ul style="list-style-type: none;">
+                        <li><input type="radio" name="DIRECT" id="11"><label for="BACHILLERATO_LOGSE">Bachillerato
+                                LOGSE. Modalidad</label><input type="text" name="BACHILLERATO_LOGSE" id="16"></li>
+                        <li><input type="radio" name="DIRECT" id="12">Bachillerato Experimental</li>
+                        <li><input type="radio" name="DIRECT" id="13"><label for="COU">COU.Opción</label><input
+                                type="text" name="COU" id="17"></li>
+                        <li><input type="radio" name="DIRECT" id="14">FP2</li>
+                        <li><input type="radio" name="DIRECT" id="15"><label for="OTRO">Otros
+                                (especifique)</label><input type="text" name="OTRO" id="19"></li>
+                    </ul>
+                </li><input type="radio" name="Forma" id="10">Prueba libre
+                <li></li>
+            </ul>
+        </fieldset>
+        <fieldset style="background-color:firebrick;">
+            <legend style="background-color: white;border-style: solid;border-width: 2px;">Documentos Adjuntados
+            </legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="DNI" id="20">Fotocopia DNI</td>
+                    <td><input type="checkbox" name="CERTIFICADO" id="21" style="align-self: flex-end;"></td>
+                    <td>Certificado Académico</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="OTROSDOCUMENT" id="22"><label for="OTROSDOCUMENT">Otros
+                            documentos (especifique)</label></td>
+                    <td><input type="text" name="OTROSDOCUMENT" id="23"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Enviar Solicitud"
+            style="background-color: rgb(222, 205, 241);border-style: solid;border-width: 2px;width: 150px ;height: 30px;">
+    </form>
+</body>
+
+</html>
+
+<!--    <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="CERTIFICADO" id="21">Certificado Académico</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="OTROSDOC" id="22">Otros documentos (especifique) </td>
+                    <td><input type="text" name="OTROSDOCUMENTOS" id="23" style="width: 300px;"></td>
+                </tr> -->
