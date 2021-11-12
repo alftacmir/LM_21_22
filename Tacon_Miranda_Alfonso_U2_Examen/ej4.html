@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        legend {
+            color: blue;
+            font-weight: bolder;
+            font-size: 90%;
+        }
+    </style>
+    <!--Pongo aquí todos los estilos comunes para ahorrar tiempo-->
+</head>
+
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <!--Cambiamos el tipo de letra y creamos un formulario-->
+    <form action="">
+        <fieldset style="border-color: blue;">
+            <!--Creamos nuestro primer field set donde va a estar todo contenido-->
+            <h1>Reservation Request</h1>
+            <!--Pongo un h1 porque se asemeja en tamaño y en negrita-->
+            <fieldset>
+                <legend>General Information</legend>
+                <table>
+                    <!--Abro una tabla 4x3 para situar los campos sin usar css-->
+                    <tr>
+                        <td><label for="llegada">Arrival date:</label></td>
+                        <td><input style="width: 180px;" type="date" name="fecha" id="1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="noches">Nights:</label></td>
+                        <td><input type="number" name="noches" id="2"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adultos">Adults:</label></td>
+                        <td><select name="adultos" id="3">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="niños">Children: </label></td>
+                        <td><select name="
+                            niños" id="4">
+                                <option value="0"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                </table>
+                <!-- Debemos seleccionar los tipos de inputs correcto para que se un formulario adecuado con date number y usando select-->
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <table>
+                    <tr>
+                        <td> <label for="room">Room Type:</label></td>
+                        <td><input type="radio" name="habitacion" id="20">Standard<input type="radio" name="habitacion"
+                                id="21">Business<input type="radio" name="habitacion" id="22">Suite</td>
+                    </tr>
+                    <tr>
+                        <td><label for="bed">Bed Type:</label></td>
+                        <td>
+                            <input type="radio" name="bed" id="30">King<input type="radio" name="bed" id="31">Double
+                            Double
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="fumar" id="100">Smoking
+                        </td>
+                    </tr>
+                </table>
+                <!--Importante poner el mismo nombre en los input radio y tambien separar por tablas-->
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre:</label>
+                        </td>
+
+                        <td>
+                            <input type="text" name="nombre" id="1000" required>
+                            <!--Importante poner el required para que sea obligatorio-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="yahoo"></td><!--poner de tipo email-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tlf">Phone: </label>
+                        </td>
+                        <td>
+                            <input type="tel" name="telefono" id="nokia"><!--poner de tipo telefono-->
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input style="padding-left: 20px;padding-right: 20px;" type="submit" value="Submit Reservation">
+            <input style="width: 150px;padding-left: 20px;padding-right: 20px" type="reset" value="Clear"><!--Hay que poner los botones de enviar y resetear-->
+        </fieldset>
+    </form>
+</body>
+
+</html>
