@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+
+<Libro Catalogo="Destrucción del mundo"> 
+    <Titulo></Titulo>
+    <Seccion></Seccion>
+    <SubSeccion></SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema></Tema>
+        </Capitulo>
+        <Separacion></Separacion>
+    </Contenido>
+    <Copyright></Copyright>
+</Libro>
