@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="relacion">
+        <xs:complexType>
+            <xs:element name="persona" type="xs:string" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string" use="required"/>
+                        <xs:element name="email" type="email" maxOccurs="unbounded" use="required"/>
+                        <xs:element name="parentesco">
+                            <xs:complexType>
+                                <xs:attribute name="tipo"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:attribute name="sexo" type="xs:string"/>
+            <xs:attribute name="carnet" type="xs:string" use="required"/>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

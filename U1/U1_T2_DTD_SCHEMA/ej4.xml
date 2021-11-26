@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej4.xsd">
+    <orderperson>Joselito</orderperson>
+    <shipto>
+        <name>Paco</name>
+        <address>C/Lope de Vega nº30</address>
+        <city>Torrevieja</city>
+        <country>España</country>
+    </shipto>
+    <item orderid="500">
+        <title>Libro de Química</title>
+        <note>Viene con apuntes</note>
+        <quantity>1</quantity>
+        <price>39.99€</price>
+    </item>
+    <item orderid="538">
+        <title>Bolígrafo subrayador amarillo</title>
+        <quantity>6</quantity>
+        <price>8.63€</price>
+    </item>
+</shiporder>
