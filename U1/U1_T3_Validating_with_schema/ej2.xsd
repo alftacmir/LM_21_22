@@ -1,0 +1,19 @@
+<xs:schem xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Librería">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Libro" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Autor" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element type="xs:short" name="Fecha_publicacion"/>
+              <xs:element type="xs:string" name="Título"/>
+              <xs:element type="xs:string" name="Lugar"/>
+              <xs:element type="xs:string" name="Editorial"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schem>

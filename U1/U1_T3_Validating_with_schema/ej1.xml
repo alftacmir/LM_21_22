@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Miembros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej1.xsd">
+    <Miembro>
+        <Nombre>Chris Smith</Nombre>
+        <Tiempo_membresia>4</Tiempo_membresia>
+    </Miembro>
+    <Miembro>
+        <Nombre>Judi Zimmerman</Nombre>
+        <Tiempo_membresia>5</Tiempo_membresia>
+    </Miembro>
+    <Miembro>
+        <Nombre>Michael Calder</Nombre>
+        <Tiempo_membresia>3</Tiempo_membresia>
+    </Miembro>
+</Miembros>
