@@ -2,14 +2,13 @@
 <!DOCTYPE Libro SYSTEM "ej2.dtd">
 
 <Libro Catalogo="Destrucción del mundo"> 
-    <Titulo></Titulo>
-    <Seccion></Seccion>
-    <SubSeccion></SubSeccion>
+    <Titulo>El futuro del Marketing</Titulo>
+    <Seccion>Econimía y empresa</Seccion>
+    <SubSeccion>Inversiones</SubSeccion>
     <Contenido>
         <Capitulo materia="XML">
-            <Tema></Tema>
+            <Tema>Tema 1</Tema>
         </Capitulo>
-        <Separacion></Separacion>
     </Contenido>
-    <Copyright></Copyright>
+    <Copyright>Marca registrada</Copyright>
 </Libro>
