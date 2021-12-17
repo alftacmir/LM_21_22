@@ -1,0 +1,38 @@
+h1{
+    margin: 0%;
+    padding: 20px;
+}
+img{
+    width: 25%;
+    text-align: center;
+    background-color: grey;
+}
+footer,h1,.linea,h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#fecha{
+    margin: 0px;
+    text-align: end;
+}
+.linea{
+    display: inline-flex;
+    width: 100%;
+    margin: 0%;
+    padding: 5px;
+}
+.espacio{
+    padding-left: 5%;
+}
+
+.lista{
+    background-color: grey;
+}
+ul{
+    list-style-type: none;
+}
+.caja{
+    width: 250 px;
+}
+

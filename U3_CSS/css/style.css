@@ -1,0 +1,34 @@
+table,td,th,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    height: 10cm;
+}
+#recreo{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.Programación{
+background-color: chocolate;
+}
+.FOL{
+background-color: darkcyan;
+}
+.Sistemas{
+background-color: darkgoldenrod;
+}
+.LMSGI{
+background-color: darkolivegreen;
+}
+.Base{
+background-color: dimgray;
+}
+.Entorno{
+background-color: royalblue;
+}
+.Bordes{
+    background-color: rgb(165, 52, 52);
+}

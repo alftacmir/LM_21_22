@@ -1,0 +1,36 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.Letrablanco{
+    color: white;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-trim: 0px 0px 0px 0px;
+}
+.Fondoazul{
+    background-color: blue;
+}
+.Fondogris{
+    background-color: gray;
+    font-size: xx-large;
+}
+#rojoazul{
+    color: red;
+    background-color: blue;
+}
+#oliva{
+    background-color: olive;
+    width: 100px;
+    height: 100px;
+}
+#rojo{
+    color: red;
+    text-align: left;
+}
+caption{
+    font-size: 2em;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+table:first-of-type,td:nth-child(1),td:nth-child(2),td:nth-child(3),td:nth-child(4),td:nth-child(5),th:nth-child(1),th:nth-child(2),th:nth-child(3),th:nth-child(4),th:nth-child(5){
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.gris{
+    background-color: gray;
+}
+label::after{
+    content: "*";
+    color: red;
+}
+a:first-child{
+    color: green;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+td:first-child{
+    background-color: green;
+}
+input:first-of-type{
+    border: 1px solid red;
+}
+input:first-of-type:focus{
+    border: 1px solid black;
+}
+td:last-child:hover{
+    font-size: 2em;
+}
+th::first-letter{
+    font-size: 2em;
+}
+tr:nth-child(4){
+    background-color: yellow;
+
+}
+tr:nth-child(4) th::first-letter{
+    font-size: 1em;
+}
+tr:nth-child(4):hover th{
+    font-size: 2em;
+}
+tr:nth-child(1) th:last-child:hover{
+    font-size: 2em;
+}
