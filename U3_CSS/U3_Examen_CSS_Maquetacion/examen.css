@@ -1,0 +1,70 @@
+.linea{
+    display: inline-flex;
+}
+.tamac{  
+    width: 10px;
+}
+span{
+    color: green;
+    border-right: 2px solid gray;
+    margin-right: 5px;
+    padding: 5px;
+}
+.linea li,p,form{
+    display: inline-flex;
+}
+.linea a li p:hover{
+    color: red;
+}
+#negro{
+    background-color: rgb(41, 41, 41);;
+}
+#negro li{
+    color: white;
+    padding: 0 5px 0px 10px;
+    border-right: 1px solid white;
+    list-style-type: none;
+}
+#derecha{
+   padding-left: 850px;
+}
+#castillo{
+    width: 100%;
+}
+form{
+    text-align: right;
+    padding-left: 30%;
+}
+main div{
+    background-color: grey;
+    height: 50%;
+    color: white;
+}
+#margenderecha{
+    padding-right: 10px;
+    border-right: 2px solid grey;
+    margin: 0px 10px 0px 0px;
+}
+footer div{
+    display: inline-flex;
+    width: 30%;
+}
+.bloque{
+    display: inline-block;
+}
+.imagenm{
+    width: 50%;
+    height: 30%;
+}
+.bloque p,h2{
+    width: 300px;
+}
+main div a:link, a:visited{
+    color: white;
+}
+#azul:hover{
+    color: blue;
+}
+#oscurito:hover{
+    background-color: gray;
+}
