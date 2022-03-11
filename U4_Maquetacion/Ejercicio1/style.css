@@ -1,0 +1,57 @@
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 3em;
+    padding-top: 2rem;
+    margin: 6rem;
+    margin-left: 0%;
+}
+
+nav div{
+    display: inline;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 2%;
+}
+
+
+.linea{
+    display: inline;
+    position: relative;
+    width: 20%;
+}
+#fondoverde{
+    background-color: rgb(97, 228, 97);
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+#profile{
+    float: left;
+}
+#perfil{
+    width: 100px;
+}
+#borde{
+    border: 1px solid black;
+    height: 300px;
+    width: fit-content;
+}
+.linea2{
+    display: inline-flex;
+}
+figure{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+img{
+    width: 80%;
+}
